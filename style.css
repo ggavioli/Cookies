@@ -1,0 +1,23 @@
+body{
+    background-color:  #FFFCFA;
+	color: #fff;
+}
+
+
+#bouton, #multiplicateur, #autoclick {
+    vertical-align:top;
+    display:inline-block;
+    background-color: #434543;
+    text-transform:uppercase;
+    margin-left:10px;
+    margin-bottom:10px;
+    
+}
+.bg-primary {
+    margin: 50px;
+	width: 100px;
+    height: 100px;
+    border-radius: 10px;
+	text-align: center;
+	background-color:#cc0000;
+}
