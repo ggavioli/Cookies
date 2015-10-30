@@ -58,9 +58,9 @@ function stopint(){
     clearInterval($stop);
  }
 
-$bouton.onclick = clic;
-$multiplicateur.onclick = acheterMultiplicateur;
-$autoclick.onclick = acheterAutoclick;
+var bouton.onclick = clic;
+var multiplicateur.onclick = acheterMultiplicateur;
+var autoclick.onclick = acheterAutoclick;
 afficherScore();
 afficherNbMultiplicateur();
 afficherPrixAutoclick();
