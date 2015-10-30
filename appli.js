@@ -1,15 +1,15 @@
-$bouton = document.getElementById("bouton");
-$multiplicateur = document.getElementById("multiplicateur");
-$score = document.getElementById("score");
-$autoclick = document.getElementById("autoclick");
+var bouton = document.getElementById("bouton");
+var multiplicateur = document.getElementById("multiplicateur");
+var score = document.getElementById("score");
+var autoclick = document.getElementById("autoclick");
 score = 1;
 nbMultiplicateur = 1;
 function afficherScore() {
-    $score.innerHTML = "Score : " + score;
+    var score.innerHTML = "Score : " + score;
 }
 
 function afficherNbMultiplicateur() {
-    $multiplicateur.innerHTML = "Multiplicateur x" + nbMultiplicateur + " (prix du prochain verre de lait : " + prix() + ")";
+    $multiplicateur.innerHTML = "Multiplicateur x" + nbMultiplicateur + " (prix du prochain verre : " + prix() + ")";
 }
 
 function afficherPrixAutoclick(){
